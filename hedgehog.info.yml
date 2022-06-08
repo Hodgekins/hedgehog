@@ -1,0 +1,37 @@
+name: Hedgehog
+type: profile
+description: 'Hedgehog profile, you need admin_toolbar and Puffin theme'
+version: VERSION
+install:
+  - node
+  - block
+  - breakpoint
+  - ckeditor5
+  - config
+  - contextual
+  - menu_link_content
+  - datetime
+  - block_content
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - toolbar
+  - field_ui
+  - file
+  - views
+  - views_ui
+  - automated_cron
+  - admin_toolbar
+  - admin_toolbar_tools
+themes:
+  - puffin
+  - claro
+core_version_requirement: ^8 || ^9

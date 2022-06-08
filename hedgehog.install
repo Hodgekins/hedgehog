@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the standard installation profile.
+ */
+
+use Drupal\user\Entity\User;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function hedgehog_install() {
+  // Assign user 1 the "administrator" role.
+  $user = User::load(1);
+  $user->roles[] = 'administrator';
+  $user->save();
+
+  //Delete annoying default views
+  $views = [
+    'frontpage',
+    'content_recent',
+    'who_s_new',
+    'who_s_online',
+    'archive',
+    'glossary',
+  ];
+
+  foreach($views as $view) {
+    \Drupal::service('config.factory')->getEditable('views.view.' . $view)->delete();
+  }
+
+
+}
