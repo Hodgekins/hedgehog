@@ -1,0 +1,12 @@
+uuid: ad7e8c23-6eb8-487b-87dd-2f0986c35c7c
+langcode: en
+status: true
+dependencies: {  }
+label: '16:9'
+id: 16x9
+description: ''
+aspect_ratio: '16:9'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - crop.type.standard
+    - crop.type.16x9
   module:
     - crop
 name: 16x9_wide
@@ -14,7 +14,7 @@ effects:
     id: crop_crop
     weight: 1
     data:
-      crop_type: standard
+      crop_type: 16x9
       automatic_crop_provider: null
   d0637ec9-53b6-4a21-98c5-af83c74e301a:
     uuid: d0637ec9-53b6-4a21-98c5-af83c74e301a
