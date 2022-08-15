@@ -1,0 +1,39 @@
+uuid: 3a6cc748-9077-4e88-b4cd-227e152c3ef3
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.5x4_mobile
+    - image.style.5x4_wide
+  theme:
+    - puffin
+id: 5x4
+label: 5x4
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: 5x4_wide
+    breakpoint_id: puffin.extra_large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 5x4_wide
+    breakpoint_id: puffin.large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 5x4_mobile
+    breakpoint_id: puffin.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 5x4_mobile
+    breakpoint_id: puffin.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 5x4_mobile
+    breakpoint_id: puffin.extra_small
+    multiplier: 1x
+breakpoint_group: puffin
+fallback_image_style: '_empty image_'

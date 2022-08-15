@@ -1,0 +1,39 @@
+uuid: 38f7e947-fc6b-4a51-834e-00a67d3ca379
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.3x1_wide
+    - image.style.5x4_mobile
+  theme:
+    - puffin
+id: hero
+label: Hero
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: 3x1_wide
+    breakpoint_id: puffin.extra_large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 3x1_wide
+    breakpoint_id: puffin.large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 3x1_wide
+    breakpoint_id: puffin.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 5x4_mobile
+    breakpoint_id: puffin.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 5x4_mobile
+    breakpoint_id: puffin.extra_small
+    multiplier: 1x
+breakpoint_group: puffin
+fallback_image_style: '_empty image_'

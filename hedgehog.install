@@ -34,5 +34,15 @@ function hedgehog_install() {
     \Drupal::service('config.factory')->getEditable('views.view.' . $view)->delete();
   }
 
+  //Delete annoying image styles
+  $styles = [
+    'large',
+    'meduim',
+    'wide',
+  ];
+
+  foreach($styles as $style) {
+    \Drupal::service('config.factory')->getEditable('image.style' . $style)->delete();
+  }
 
 }

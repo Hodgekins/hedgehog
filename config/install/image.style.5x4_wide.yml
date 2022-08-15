@@ -1,0 +1,32 @@
+uuid: 1c275b1b-0665-4e35-880f-e8fedb5396ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.5x4
+  module:
+    - crop
+name: 5x4_wide
+label: '5x4 wide (1200x960)'
+effects:
+  1c5c173f-70af-4162-aafb-4b1d8220d956:
+    uuid: 1c5c173f-70af-4162-aafb-4b1d8220d956
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: 5x4
+      automatic_crop_provider: null
+  4a7ed1b7-9934-43d3-9397-7ea6f56989fb:
+    uuid: 4a7ed1b7-9934-43d3-9397-7ea6f56989fb
+    id: image_scale
+    weight: 2
+    data:
+      width: 1200
+      height: 960
+      upscale: true
+  f9ab06dd-50de-44d7-ba2b-da003f9b6833:
+    uuid: f9ab06dd-50de-44d7-ba2b-da003f9b6833
+    id: image_convert
+    weight: 3
+    data:
+      extension: webp

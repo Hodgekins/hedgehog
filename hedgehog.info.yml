@@ -15,6 +15,10 @@ install:
   - editor
   - help
   - image
+  - responsive_image
+  - image_widget_crop
+  - media
+  - media_library
   - menu_ui
   - options
   - path
