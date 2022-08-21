@@ -42,7 +42,7 @@ function hedgehog_install() {
   ];
 
   foreach($styles as $style) {
-    \Drupal::service('config.factory')->getEditable('image.style' . $style)->delete();
+    \Drupal::service('config.factory')->getEditable('image.style.' . $style)->delete();
   }
 
 }
