@@ -11,8 +11,6 @@ dependencies:
     - image.style.5x4_sm_12col_2x
     - image.style.5x4_xl_6col
     - image.style.5x4_xl_6col_2x
-    - image.style.5x4_xs_12col
-    - image.style.5x4_xs_12col_2x
     - image.style.5x4_xxl_6col
     - image.style.5x4_xxl_6col_2x
   theme:
@@ -72,12 +70,12 @@ image_style_mappings:
     multiplier: 2x
   -
     image_mapping_type: image_style
-    image_mapping: 5x4_xs_12col
+    image_mapping: 5x4_sm_12col
     breakpoint_id: puffin.xs
     multiplier: 1x
   -
     image_mapping_type: image_style
-    image_mapping: 5x4_xs_12col_2x
+    image_mapping: 5x4_sm_12col_2x
     breakpoint_id: puffin.xs
     multiplier: 2x
 breakpoint_group: puffin

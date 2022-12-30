@@ -1,3 +1,4 @@
+uuid: 58909a0c-94b3-484b-821b-b4a27ceab814
 langcode: en
 status: true
 dependencies:
@@ -5,7 +6,7 @@ dependencies:
     - crop.type.16x9
   module:
     - crop
-name: 16x9_lg_8col 
+name: 16x9_lg_8col
 label: 16x9_lg_8col
 effects:
   13c9f61f-307b-4baa-8d3f-1b69410b4cd9:
