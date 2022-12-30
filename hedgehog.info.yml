@@ -1,7 +1,7 @@
 name: Hedgehog
 type: profile
-description: 'Hedgehog profile, you need admin_toolbar and Puffin theme'
-version: VERSION
+description: 'Hedgehog profile'
+version: 1.0
 install:
   - node
   - block
@@ -38,4 +38,4 @@ install:
 themes:
   - puffin
   - claro
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10
