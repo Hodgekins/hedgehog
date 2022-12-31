@@ -1,0 +1,50 @@
+uuid: 80b1feeb-f297-44da-97a0-a50f5436eab6
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - ckeditor5
+format: restricted_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - '|'
+      - alignment
+      - '|'
+      - bold
+      - italic
+      - '|'
+      - link
+      - bulletedList
+      - numberedList
+      - horizontalLine
+      - '|'
+      - sourceEditing
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading1
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_sourceEditing:
+      allowed_tags:
+        - '<button type class>'
+        - '<p class>'
+        - '<div class>'
+    ckeditor5_list:
+      reversed: true
+      startIndex: true
+    ckeditor5_alignment:
+      enabled_alignments:
+        - left
+        - center
+        - right
+        - justify
+image_upload: {  }

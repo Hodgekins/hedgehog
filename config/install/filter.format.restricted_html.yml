@@ -1,0 +1,19 @@
+uuid: 07d785d2-b329-43c7-abe9-73273f9f4fb8
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+name: 'Restricted HTML'
+format: restricted_html
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<button type class> <p class> <div class>'
+      filter_html_help: false
+      filter_html_nofollow: false
