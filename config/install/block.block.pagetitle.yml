@@ -1,0 +1,18 @@
+uuid: cbf8b495-368c-4de8-956e-e937f1d7ec89
+langcode: en
+status: true
+dependencies:
+  theme:
+    - puffin
+id: pagetitle
+theme: puffin
+region: content
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
