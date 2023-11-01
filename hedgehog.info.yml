@@ -8,6 +8,8 @@ install:
   - breakpoint
   - ckeditor5
   - config
+  - media
+  - media_library
   - menu_link_content
   - datetime
   - block_content
