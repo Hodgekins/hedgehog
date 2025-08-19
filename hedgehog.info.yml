@@ -28,9 +28,7 @@ install:
   - views
   - views_ui
   - automated_cron
-  - admin_toolbar
-  - admin_toolbar_tools
 themes:
-  - puffin
+  - mosaic
   - claro
 core_version_requirement: ^10 || ^11
