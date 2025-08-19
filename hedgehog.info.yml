@@ -29,6 +29,6 @@ install:
   - views_ui
   - automated_cron
 themes:
-  - mosaic
+  - puffin
   - claro
 core_version_requirement: ^10 || ^11
